@@ -1,0 +1,40 @@
+{
+  "navbar": {
+    "options": [
+      {
+        "name": "Home"
+      },
+      {
+        "name": "Portfolio"
+      },
+      {
+        "name": "Skills"
+      },
+      {
+        "name": "Contact"
+      }
+    ]
+  },
+  "home": {},
+  "portfolio": {
+    "title": "Portfolio",
+    "options": ["All", "Web", "Games", "Others"],
+    "button-options": {
+      "name": "View demo"
+    }
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "contact": {
+    "title": "Contact",
+    "form": {
+      "email": {
+        "name": "Email"
+      },
+      "message": {
+        "name": "Message"
+      }
+    }
+  }
+}

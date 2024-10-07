@@ -1,0 +1,16 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+#root {
+  max-width: 3840px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*scrollbar-width: none;*/
+}

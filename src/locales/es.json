@@ -1,0 +1,52 @@
+{
+  "navbar": {
+    "options": [
+      {
+        "name": "Inicio"
+      },
+      {
+        "name": "Portafolio"
+      },
+      {
+        "name": "Habilidades"
+      },
+      {
+        "name": "Contacto"
+      }
+    ]
+  },
+  "home": {
+    "description": {
+      "first": "Soy",
+      "second": ", desarrollador fullstack apasionado por la creación de soluciones web innovadoras. Con experiencia en JavaScript, React y Node.js, he trabajado en proyectos que destacan por su calidad y funcionalidad.",
+      "third": "Estoy comprometido con el aprendizaje continuo y la mejora de mis habilidades, siempre en busca de desafíos que me permitan crecer profesionalmente. En este portafolio, muestro una selección de mis proyectos que reflejan mi enfoque en la excelencia y la creatividad en el desarrollo web."
+    }
+  },
+  "portfolio": {
+    "title": "Portafolio",
+    "options": ["Todo", "Web", "Juegos", "Otros"],
+    "button-options": {
+      "name": "Ver demo"
+    }
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "contact": {
+    "title": "Contacto",
+    "form": {
+      "email": {
+        "name": "Correo electrónico"
+      },
+      "message": {
+        "name": "Mensaje"
+      },
+      "button": {
+        "name": "Enviar"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "Desarrollado y diseñado por Herless Oliver Ramos Espinoza. ©2022. Todos los derechos reservados."
+  }
+}
