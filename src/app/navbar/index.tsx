@@ -54,7 +54,7 @@ const Navbar = ({ dictionary }: Props) => {
       <nav
         ref={navbarRef}
         className={cx(
-          "bg-[transparent] backdrop-blur-sm flex justify-end items-center px-8 sm:px-16 py-[1rem] fixed top-0 z-[9999] w-full max-w-[3840px]",
+          "bg-[transparent] backdrop-blur-sm flex justify-end items-center px-8 sm:px-16 py-[1rem] fixed top-0 z-[99999] w-full max-w-[3840px]",
           scrollPosition > 50
             ? "bg-[#081F2D] bg-opacity-40 py-[1rem] transition-all"
             : ""

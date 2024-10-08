@@ -1,6 +1,7 @@
 import cx from "@/libs/cx";
 import { useState } from "react";
 import CardProject from "./card-project";
+import LineXStyle from "@/components/shared/line-x-style";
 
 interface Props {
   id: string;
@@ -73,18 +74,18 @@ const Portfolio = ({ id, dictionary }: Props) => {
   ];
 
   return (
-    <section id={id} className="text-white pb-[100px]">
-      <h3 className="font-fondamento uppercase tracking-[3.5px] text-[32.5px] text-center pt-[100px] pb-[50px] text-sky-blue-200">
+    <section id={id} className="text-white pb-[75px] sm:pb-[100px]">
+      <h3 className="font-fondamento uppercase tracking-[3.5px] text-xl sm:text-3xl text-center pt-[75px] sm:pt-[100px] pb-[50px] text-sky-blue-200">
         {dictionary?.title}
       </h3>
-      <hr className="h-[0.175rem] border-0 bg-gradient-to-r from-transparent via-sky-blue-200 to-transparent" />
+      <LineXStyle />
       <div className="flex items-center justify-center py-[50px] gap-4 text-sky-blue-200">
         {dictionary?.options &&
           dictionary?.options.map((opt, i) => (
             <div
               key={i}
               className={cx(
-                "text-[24px] transition-all duration-300 cursor-pointer hover:text-gold-100",
+                "text-lg sm:text-2xl transition-all duration-300 cursor-pointer hover:text-gold-100",
                 i === indexOptSelect ? "text-gold-100" : ""
               )}
               onClick={() => {
