@@ -7,7 +7,7 @@ const Home = ({ id, dictionary }: Props) => {
   return (
     <div id={id} className="overflow-hidden w-full relative h-[100vh]">
       <div className="bg-[url('/bg-home.png')] bg-fixed bg-center bg-cover relative w-full h-full z-[1] flex items-center justify-center mx-auto">
-        <div className="text-white max-w-[60ch] px-8 text-2xl text-opacity-80 font-montserrat font-medium">
+        <div className="text-white max-w-[60ch] px-8 text-base pt-[56px] sm:text-xl md:text-2xl text-opacity-80 font-montserrat font-medium">
           {dictionary?.description && (
             <>
               <p>
