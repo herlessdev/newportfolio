@@ -10,4 +10,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"), // Configura el alias para Vite
     },
   },
+  base: "/newportfolio/",
 });

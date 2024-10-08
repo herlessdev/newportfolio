@@ -66,7 +66,7 @@ const Navbar = ({ dictionary }: Props) => {
             onToggle();
           }}
         >
-          <img src={"/icons/miscellanea/toggle.svg"} className="w-6 h-6" />
+          <img src={`${import.meta.env.BASE_URL}icons/miscellanea/toggle.svg`} className="w-6 h-6" />
         </button>
 
         <ul className="sm:flex hidden gap-[18px] items-center justify-center text-base text-white">

@@ -34,7 +34,7 @@ const CarouselMultiple = ({ items }: Props) => {
           >
             <img
               className={cx("w-16 mx-16", item?.className)}
-              src={`/icons/${item?.name}.${item?.type ? item?.type : "svg"}`}
+              src={`${import.meta.env.BASE_URL}icons/${item?.name}.${item?.type ? item?.type : "svg"}`}
               alt={item?.name}
             />
             <div className="capitalize absolute p-1.5 pointer-events-none text-white font-medium font-montserrat rounded-md bg-sky-blue-200 left-1/2 text-sm translate-x-[-50%] bottom-1/2 translate-y-[-25%] transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:bottom-[100%]">
