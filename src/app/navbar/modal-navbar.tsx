@@ -26,10 +26,10 @@ const ModalNavbar = ({
           isVisible ? "" : "fade-out"
         )}
       >
-        <div className="h-[100px] py-4 flex items-center justify-center border-[#24364BCC] border-b-[.5px]">
+        <div className="h-[56px] py-4 flex items-center justify-center">
           
           <button
-            className="text-white absolute right-[5%] top-[2.5%] text-[24px] scale-x-[1.2]"
+            className="text-white absolute right-[5%] text-[24px] scale-x-[1.2]"
             onClick={() => {
               setIsVisible(false);
               setTimeout(() => {
@@ -40,12 +40,12 @@ const ModalNavbar = ({
             X
           </button>
         </div>
-        <ul className="flex flex-col text-white my-[.5rem]">
+        <ul className="flex flex-col text-white my-0 sm:my-[.5rem]">
           {options &&
             options.map((opt, i) => (
               <li
                 key={i}
-                className="font-light text-[20px] hover:bg-quaternary hover:brightness-125 duration-300 cursor-pointer"
+                className="font-normal text-lg sm:text-xl hover:bg-quaternary hover:brightness-125 duration-300 cursor-pointer"
               >
                 <a
                   href={"#" + opt.name.toLowerCase()}
