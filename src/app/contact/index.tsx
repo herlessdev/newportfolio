@@ -69,7 +69,7 @@ const Contact = ({ id, dictionary }: Props) => {
           />
         </div>
         <button
-          className="bg-black-100 shadow-[0px_0px_10px_1px_skyblue] rounded-[15px] text-white tracking-widest border-none cursor-pointer text-lg sm:text-xl font-semibold mx-0 my-6 sm:my-10 p-[12.5px] bg-[linear-gradient(to_right,transparent,transparent),linear-gradient(to_right,#4e89a7,#4e89a7)]
+          className="bg-black-100 shadow-[0px_0px_10px_1px_skyblue] rounded-[15px] text-white tracking-widest border-none cursor-pointer text-lg sm:text-xl font-semibold mx-0 mt-6 sm:mt-10 p-[12.5px] bg-[linear-gradient(to_right,transparent,transparent),linear-gradient(to_right,#4e89a7,#4e89a7)]
           bg-[position:0px_0px] bg-no-repeat bg-[length:0%_100%] hover:bg-[length:100%_100%] hover:scale-[1.02] transition-all duration-300
           "
           type="submit"
@@ -77,7 +77,7 @@ const Contact = ({ id, dictionary }: Props) => {
           {dictionary?.form?.button?.name}
         </button>
       </form>
-      <div className="flex justify-around sm:justify-center gap-0 sm:gap-28 overflow-hidden pt-6 pb-2">
+      <div className="flex justify-around pt-[50px] sm:justify-center items-center gap-0 sm:gap-28 overflow-hidden">
         {social_networks &&
           social_networks.map((s_network, i) => (
             <a
