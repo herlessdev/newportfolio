@@ -38,9 +38,9 @@ const Skills = ({ id, dictionary }: Props) => {
   return (
     <section
       id={id}
-      className="pt-[100px] text-center font-fondamento text-[32.5px] uppercase"
+      className="pt-[75px] sm:pt-[100px] text-center font-fondamento uppercase"
     >
-      <h3 className="font-fondamento uppercase tracking-[3.5px] text-[32.5px] text-center pb-[50px] text-sky-blue-200">
+      <h3 className="font-fondamento uppercase tracking-[3.5px] text-xl sm:text-3xl text-center pb-[50px] text-sky-blue-200">
         {dictionary?.title}
       </h3>
       <LineXStyle />

@@ -11,7 +11,7 @@ interface Props {
 
 const CarouselMultiple = ({ items }: Props) => {
   return (
-    <div className="flex pt-[100px] items-center justify-start overflow-hidden">
+    <div className="flex pt-[75px] sm:pt-[100px] items-center justify-start overflow-hidden">
       {items &&
         items.map((item, i) => (
           <motion.div
