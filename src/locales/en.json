@@ -15,7 +15,13 @@
       }
     ]
   },
-  "home": {},
+  "home": {
+    "description": {
+      "first": "I am",
+      "second": ", a fullstack developer passionate about creating innovative web solutions. With experience in JavaScript, React, and Node.js, I have worked on projects that stand out for their quality and functionality.",
+      "third": "I am committed to continuous learning and improving my skills, always seeking challenges that allow me to grow professionally. In this portfolio, I showcase a selection of my projects that reflect my focus on excellence and creativity in web development."
+    }
+  },
   "portfolio": {
     "title": "Portfolio",
     "options": ["All", "Web", "Games", "Others"],
@@ -34,7 +40,13 @@
       },
       "message": {
         "name": "Message"
+      },
+      "button": {
+        "name": "Send"
       }
     }
+  },
+  "footer": {
+    "copyright": "Developed and designed by Herless Oliver Ramos Espinoza. ©2022. All rights reserved."
   }
 }

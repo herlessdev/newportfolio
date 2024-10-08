@@ -3,7 +3,7 @@ interface Props {
 }
 const Footer = ({ dictionary }: Props) => {
   return (
-    <section className="bg-sky-blue-100 bg-opacity-60 text-blue-100 flex p-2.5 justify-center font-bold text-[10px] sm:text-xs text-center">
+    <section className="bg-primary text-white font-[250px] text-opacity-[69%] flex p-2.5 justify-center text-[10px] sm:text-xs text-center">
       {dictionary?.copyright}
     </section>
   );

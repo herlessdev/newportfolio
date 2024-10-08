@@ -50,6 +50,12 @@ function App() {
             dictionary={dictionary?.contact}
           />
           <Footer dictionary={dictionary?.footer} />
+          <button
+            className="bg-primary border-[1px] hover:brightness-[160%] transition-all duration-300 border-opacity-[20%] border-white text-white font-extralight fixed z-[999999] sm:bottom-1 bottom-[calc(100%-42.5px)] left-1 rounded-sm py-1 px-2 text-sm"
+            onClick={toggleLanguage}
+          >
+            {language === "es" ? "English" : "Español"}
+          </button>
           <div id="portal" />
         </>
       )}
