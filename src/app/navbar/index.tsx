@@ -66,7 +66,10 @@ const Navbar = ({ dictionary }: Props) => {
             onToggle();
           }}
         >
-          <img src={`${import.meta.env.BASE_URL}icons/miscellanea/toggle.svg`} className="w-6 h-6" />
+          <img
+            src={`${import.meta.env.BASE_URL}icons/miscellanea/toggle.svg`}
+            className="w-6 h-6"
+          />
         </button>
 
         <ul className="sm:flex hidden gap-[18px] items-center justify-center text-base text-white">
@@ -74,7 +77,7 @@ const Navbar = ({ dictionary }: Props) => {
             <li
               key={i}
               className={cx(
-                "hover:text-[#d93] hover:font-bold transition-all duration-300 font-extralight text-center lg:block hidden relative",
+                "hover:text-[#d93] hover:font-bold font-extralight text-center lg:block hidden relative",
                 activeSection === opt.name.toLowerCase()
                   ? "text-[#d93] font-bold"
                   : ""
