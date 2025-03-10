@@ -12,6 +12,12 @@ const Portfolio = ({ id, dictionary }: Props) => {
 
   const projects = [
     {
+      title: "VCI-LLC",
+      href: "https://adrianhates.github.io/vci-llc/",
+      tecnology: ["html", "css", "javascript", "react"],
+      category: 1,
+    },
+    {
       title: "Changomon",
       href: "https://adrianhates.github.io/game-simon/",
       tecnology: ["html", "css", "javascript", "react"],
