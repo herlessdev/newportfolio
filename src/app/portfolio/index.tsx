@@ -14,13 +14,13 @@ const Portfolio = ({ id, dictionary }: Props) => {
     {
       title: "Tauro",
       href: "https://adrianhates.github.io/tauro/",
-      tecnology: ["html", "css", "javascript", "react"],
+      tecnology: ["tailwind", "react"],
       category: 1,
     },
     {
       title: "VCI-LLC",
       href: "https://adrianhates.github.io/vci-llc/",
-      tecnology: ["html", "css", "javascript", "react"],
+      tecnology: ["tailwind", "react"],
       category: 1,
     },
     {
