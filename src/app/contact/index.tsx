@@ -16,7 +16,7 @@ const Contact = ({ id, dictionary }: Props) => {
     },
     {
       name: "github",
-      url: "https://github.com/AdrianHates",
+      url: "https://github.com/herlessdev",
     },
     {
       name: "whatsapp",
